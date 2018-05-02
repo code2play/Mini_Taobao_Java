@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="441.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="du.ui.commentController">
+   <children>
+      <TextArea fx:id="comments" layoutX="141.0" layoutY="39.0" prefHeight="204.0" prefWidth="478.0" promptText="请在此输入您对该商品的评论" />
+      <TextField fx:id="rate" layoutX="141.0" layoutY="299.0" prefHeight="30.0" prefWidth="65.0" promptText="5" />
+      <Label layoutX="61.0" layoutY="131.0" text="评论" />
+      <Label layoutX="61.0" layoutY="304.0" text="评分" />
+      <Label layoutX="246.0" layoutY="304.0" text="请在此为该商品打分，5分为满分，最低0分" />
+      <Button fx:id="ok" layoutX="181.0" layoutY="376.0" mnemonicParsing="false" onAction="#Ok" text="确定" />
+      <Button fx:id="cancel" layoutX="426.0" layoutY="376.0" mnemonicParsing="false" onAction="#Cancel" text="取消" />
+      <Label fx:id="label" layoutX="141.0" layoutY="263.0" textFill="RED" />
+   </children>
+</AnchorPane>

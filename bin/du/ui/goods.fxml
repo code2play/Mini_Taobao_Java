@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="748.0" prefWidth="525.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="du.ui.goodsController">
+  <children>
+    <Label layoutX="53.0" layoutY="46.0" prefHeight="26.0" prefWidth="40.0" text="名称">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="91.0" text="价格">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="131.0" text="库存">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="171.0" text="店铺">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="56.0" layoutY="367.0" text="销量">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="534.0" text="评价">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="name" layoutX="143.0" layoutY="48.0" prefWidth="158.0" text="name">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="price" layoutX="143.0" layoutY="91.0" prefWidth="158.0" text="price">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="amounts" layoutX="143.0" layoutY="131.0" prefWidth="144.0" text="amounts">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="seller" layoutX="143.0" layoutY="171.0" prefWidth="130.0" text="seller">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="selling_amounts" layoutX="140.0" layoutY="366.0" prefHeight="24.0" prefWidth="209.0" text="selling_amounts">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="412.0" prefWidth="36.0" text="评分">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label fx:id="rate" layoutX="142.0" layoutY="412.0" text="rate">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="55.0" layoutY="270.0" text="描述">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Button fx:id="addToCart" layoutX="397.0" layoutY="674.0" mnemonicParsing="false" onAction="#addToCart" text="加入购物车" />
+    <Button fx:id="back" layoutX="46.0" layoutY="674.0" mnemonicParsing="false" onAction="#goback" text="返回" />
+    <TextField fx:id="number" layoutX="175.0" layoutY="674.0" prefHeight="30.0" prefWidth="201.0" promptText="请在此输入需要购买的数量" />
+      <Label fx:id="label" layoutX="114.0" layoutY="714.0" textFill="RED" />
+      <Button fx:id="comment" layoutX="24.0" layoutY="624.0" mnemonicParsing="false" onAction="#Comment" text="评价该商品" />
+      <TextArea fx:id="comments" editable="false" layoutX="143.0" layoutY="457.0" prefHeight="198.0" prefWidth="350.0" promptText="暂无评价" />
+      <TextArea fx:id="description" editable="false" layoutX="143.0" layoutY="212.0" prefHeight="135.0" prefWidth="350.0" />
+  </children>
+</AnchorPane>

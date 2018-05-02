@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="763.0" prefWidth="663.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="du.ui.seller_sellingrecordsController">
+  <children>
+    <ListView fx:id="goodsname" layoutX="14.0" layoutY="14.0" prefHeight="676.0" prefWidth="107.0" />
+    <ListView fx:id="amounts" layoutX="121.0" layoutY="14.0" prefHeight="676.0" prefWidth="69.0" />
+    <ListView fx:id="consumername" layoutX="190.0" layoutY="14.0" prefHeight="676.0" prefWidth="79.0" />
+    <ListView fx:id="address" layoutX="269.0" layoutY="14.0" prefHeight="676.0" prefWidth="199.0" />
+    <ListView fx:id="date" layoutX="468.0" layoutY="14.0" prefHeight="676.0" prefWidth="181.0" />
+    <Button fx:id="back" layoutX="574.0" layoutY="711.0" mnemonicParsing="false" onAction="#goback" text="返回" />
+  </children>
+</AnchorPane>

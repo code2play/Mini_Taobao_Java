@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="621.0" prefWidth="778.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="du.ui.ordersController">
+   <children>
+      <Hyperlink fx:id="hl0" layoutX="50.0" layoutY="50" onAction="#hl0c" text="" />
+      <Hyperlink fx:id="hl1" layoutX="50.0" layoutY="100" onAction="#hl1c" text="" />
+      <Hyperlink fx:id="hl2" layoutX="50.0" layoutY="150" onAction="#hl2c" text="" />
+      <Hyperlink fx:id="hl3" layoutX="50.0" layoutY="200" onAction="#hl3c" text="" />
+      <Hyperlink fx:id="hl4" layoutX="50.0" layoutY="250" onAction="#hl4c" text="" />
+      <Hyperlink fx:id="hl5" layoutX="50.0" layoutY="300" onAction="#hl5c" text="" />
+      <Hyperlink fx:id="hl6" layoutX="50.0" layoutY="350" onAction="#hl6c" text="" />
+      <Hyperlink fx:id="hl7" layoutX="50.0" layoutY="400" onAction="#hl7c" text="" />
+      <Hyperlink fx:id="hl8" layoutX="50.0" layoutY="450" onAction="#hl8c" text="" />
+      <Hyperlink fx:id="hl9" layoutX="50.0" layoutY="500" onAction="#hl9c" text="" />
+      <Label fx:id="l0" layoutX="300.0" layoutY="50" text="" />
+      <Label fx:id="l1" layoutX="300.0" layoutY="100" text="" />
+      <Label fx:id="l2" layoutX="300.0" layoutY="150" text="" />
+      <Label fx:id="l3" layoutX="300.0" layoutY="200" text="" />
+      <Label fx:id="l4" layoutX="300.0" layoutY="250" text="" />
+      <Label fx:id="l5" layoutX="300.0" layoutY="300" text="" />
+      <Label fx:id="l6" layoutX="300.0" layoutY="350" text="" />
+      <Label fx:id="l7" layoutX="300.0" layoutY="400" text="" />
+      <Label fx:id="l8" layoutX="300.0" layoutY="450" text="" />
+      <Label fx:id="l9" layoutX="300.0" layoutY="500" text="" />
+      <Button fx:id="goback" layoutX="110.0" layoutY="560.0" mnemonicParsing="false" onAction="#Goback" text="返回" />
+      <Button fx:id="pageup" layoutX="357.0" layoutY="560.0" mnemonicParsing="false" onAction="#Pageup" text="上一页" />
+      <Button fx:id="pagedown" layoutX="617.0" layoutY="560.0" mnemonicParsing="false" onAction="#Pagedown" text="下一页" />
+   </children>
+</AnchorPane>

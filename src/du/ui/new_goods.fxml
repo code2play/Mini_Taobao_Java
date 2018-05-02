@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="du.ui.new_goodsController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="46.0" layoutY="56.0" text="名称">
+      <font>
+        <Font size="16.0" fx:id="x1" />
+      </font>
+    </Label>
+    <Label layoutX="46.0" layoutY="104.0" text="价格">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="46.0" layoutY="151.0" text="库存">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <Label layoutX="30.0" layoutY="358.0" text="商品描述">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+    <TextField fx:id="name" layoutX="108.0" layoutY="52.0" prefWidth="200.0" />
+    <TextField fx:id="price" layoutX="108.0" layoutY="100.0" prefWidth="200.0" />
+    <TextField fx:id="amounts" layoutX="108.0" layoutY="147.0" prefWidth="200.0" />
+    <TextArea fx:id="description" layoutX="108.0" layoutY="201.0" prefHeight="335.0" prefWidth="324.0" wrapText="true" />
+    <Button fx:id="save" layoutX="142.0" layoutY="637.0" mnemonicParsing="false" onAction="#save" text="保存" />
+    <Button fx:id="cancel" layoutX="283.0" layoutY="637.0" mnemonicParsing="false" onAction="#cancel" text="取消" />
+      <Label fx:id="label" layoutX="108.0" layoutY="583.0" textFill="RED" />
+  </children>
+</AnchorPane>

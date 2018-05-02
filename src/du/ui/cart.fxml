@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="du.ui.cartController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Label layoutX="17.0" layoutY="676.0" text="合计">
+      <font>
+        <Font size="18.0" />
+      </font>
+    </Label>
+    <Label fx:id="totalcost" layoutX="62.0" layoutY="712.0" text="Label" />
+    <Button fx:id="back" layoutX="489.0" layoutY="709.0" mnemonicParsing="false" onAction="#Goback" text="返回" />
+    <Button fx:id="checkout" layoutX="387.0" layoutY="710.0" mnemonicParsing="false" onAction="#calculate" text="结算" />
+    <Label fx:id="label" layoutX="317.0" layoutY="678.0" textFill="RED" />
+    <ListView fx:id="listv" layoutX="332.0" layoutY="0.0" prefHeight="644.0" prefWidth="111.0" />
+    <Button fx:id="refresh" layoutX="207.0" layoutY="711.0" mnemonicParsing="false" onAction="#setOnEditCommit" text="刷新" />
+    <ListView fx:id="listvname" layoutX="1.0" layoutY="0.0" prefHeight="644.0" prefWidth="233.0" />
+    <ListView fx:id="listvprice" layoutX="234.0" layoutY="0.0" prefHeight="644.0" prefWidth="98.0" />
+    <ListView fx:id="listvtotalprice" layoutX="443.0" layoutY="0.0" prefHeight="644.0" prefWidth="157.0" />
+  </children>
+</AnchorPane>
